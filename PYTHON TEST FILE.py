@@ -1,2 +1,3 @@
 import os 
-print(os.getcwd())
+with open("Current directory.txt", "w") as file:
+  file.write(os.getcwd())
