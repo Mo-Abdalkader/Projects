@@ -105,12 +105,12 @@ The models were evaluated using the following metrics:
 - **Root Mean Squared Error (RMSE)**: Square root of the MSE, providing a better intuition of model performance.
 - **R-squared (R²)**: Indicates how well the model fits the data.
 
-| Model   | MAE    | MSE    | RMSE   | R²    |
-|---------|--------|--------|--------|-------|
-| DNN     | XX.XX  | XX.XX  | XX.XX  | XX.XX |
-| LSTM    | XX.XX  | XX.XX  | XX.XX  | XX.XX |
-| CNN     | XX.XX  | XX.XX  | XX.XX  | XX.XX |
-| GRU     | XX.XX  | XX.XX  | XX.XX  | XX.XX |
+| Model   | MAE    | MSE    | RMSE   | RMSLE | R²    |
+|---------|--------|--------|--------|-------|-------|
+| DNN     | 0.0634  | 0.0098  | 0.0991  | -2.3118 | 0.7807 |
+| LSTM    | 0.0935  | 0.0190  | 0.1378  | -1.9819 | 0.5759 |
+| CNN     | 0.0794  | 0.0144  | 0.1200  | -2.1205 | 0.6785 |
+| GRU     | 0.0700  | 0.0122  | 0.1105  | -2.2024 | 0.7271 |
 
 Key observations:
 - **LSTM** and **GRU** models performed well in capturing the time-series nature of the data.
