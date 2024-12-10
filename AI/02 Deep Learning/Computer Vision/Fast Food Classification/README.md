@@ -36,14 +36,6 @@ The model is based on **EfficientNetB0**, a convolutional neural network archite
 
 The pre-trained EfficientNetB0 model was fine-tuned for this project. Most of the model’s layers were frozen to retain learned features, and only the last 20 layers were retrained to adapt the pre-trained weights to the specific classes in this project.
 
-### Results
-
-- **Test Loss:** 0.5485
-- **Test Accuracy:** 0.8773
-- **Precision:** 0.8994
-- **Recall:** 0.8773
-- **F1 Score:** 0.8773
-
 ### Future Work
 
 - **Enhanced Data Augmentation:** Explore advanced data augmentation techniques to further increase the diversity of the training dataset, which may improve the model's generalization.
