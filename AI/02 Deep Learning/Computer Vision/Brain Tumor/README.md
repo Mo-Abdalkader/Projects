@@ -6,7 +6,7 @@
 
 A web application to detect and classify brain tumors from MRI scans using deep learning.
 
-![Brain Tumor Classification]([https://i.imgur.com/placeholder.jpg](https://www.mhsi.com/blog/wp-content/uploads/2021/06/BrainTumor-1250205787-1200x772.jpg))
+![Brain Tumor Classification]((https://www.mhsi.com/blog/wp-content/uploads/2021/06/BrainTumor-1250205787-1200x772.jpg))
 
 ## Features
 
