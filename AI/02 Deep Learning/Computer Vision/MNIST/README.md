@@ -39,7 +39,7 @@ The model achieves approximately 99% accuracy on the MNIST test set and features
 
 ## Demo
 
-![Demo GIF](https://github.com/Mo-Abdalkader/Projects/edit/main/AI/02%20Deep%20Learning/Computer%20Vision/MNIST/static/images/MINST%APP%DEMO.gif)
+![Demo GIF](static/images/MINST%APP%DEMO.gif)
 
 ## Installation
 
