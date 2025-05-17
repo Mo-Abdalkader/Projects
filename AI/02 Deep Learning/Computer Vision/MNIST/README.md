@@ -39,7 +39,7 @@ The model achieves approximately 99% accuracy on the MNIST test set and features
 
 ## Demo
 
-![Demo GIF](static/images/MINST%APP%DEMO.gif)
+![Demo GIF](static/images/MINST%20APP%20DEMO.gif)
 
 ## Installation
 
