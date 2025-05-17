@@ -39,9 +39,7 @@ The model achieves approximately 99% accuracy on the MNIST test set and features
 
 ## Demo
 
-[Link to live demo - if available]
-
-![Demo GIF](static/images/MINST APP DEMO.gif)
+![Demo GIF](https://github.com/Mo-Abdalkader/Projects/edit/main/AI/02%20Deep%20Learning/Computer%20Vision/MNIST/static/images/MINST%APP%DEMO.gif)
 
 ## Installation
 
@@ -79,8 +77,6 @@ python app.py
 mnist-digit-recognition/
 │
 ├── app.py                  # Main Flask application
-├── training_code.py        # Code to train the CNN model
-├── download_models.py      # Helper script to download pre-trained models (if applicable)
 ├── requirements.txt        # Python dependencies
 │
 ├── models/                 # Trained model files
@@ -119,13 +115,17 @@ The model architecture is a convolutional neural network (CNN) with the followin
 ```python
 # Model Architecture
 input_layer = Input(shape=(28, 28, 1), name="input")
+
 conv1 = Conv2D(32, (3,3), activation='relu', name="conv1")(input_layer)
 pool1 = MaxPooling2D((2,2), name="pool1")(conv1)
+
 conv2 = Conv2D(64, (3,3), activation='relu', name="conv2")(pool1)
 pool2 = MaxPooling2D((2,2), name="pool2")(conv2)
+
 flat = Flatten(name="flatten")(pool2)
 dense = Dense(64, activation='relu', name="dense1")(flat)
 drop = Dropout(0.5)(dense)
+
 output = Dense(10, activation='softmax', name="output")(drop)
 ```
 
